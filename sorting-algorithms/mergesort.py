@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0,'..')
 import arrgen
 A = arrgen.rArray(100)
 print ' '.join(str(e) for e in A) 
